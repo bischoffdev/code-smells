@@ -1,9 +1,10 @@
 package blog.softwaretester.bloaters.longmethod;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class WebShop {
-    private List<Customer> customers;
+    private List<Customer> customers = new ArrayList<>();
 
     public String saveCustomer(final Customer customer) {
         customers.add(customer);

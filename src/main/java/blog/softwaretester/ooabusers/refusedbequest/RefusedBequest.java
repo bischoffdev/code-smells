@@ -1,34 +1,31 @@
 package blog.softwaretester.ooabusers.refusedbequest;
 
-public class RefusedBequest {
+abstract class Animal {
+    public abstract void speak();
 
-    private abstract static class Animal {
-        public abstract void speak();
+    public abstract void run();
+}
 
-        public abstract void run();
+class Dog extends Animal {
+
+    @Override
+    public void speak() {
+        System.out.println("Woof");
     }
 
-    private static class Dog extends Animal {
+    @Override
+    public void run() {
+        System.out.println("Running");
+    }
+}
 
-        @Override
-        public void speak() {
-            System.out.println("Woof");
-        }
+class Fish extends Animal {
 
-        @Override
-        public void run() {
-            System.out.println("Running");
-        }
+    @Override
+    public void speak() {
     }
 
-    private static class Fish extends Animal {
-
-        @Override
-        public void speak() {
-        }
-
-        @Override
-        public void run() {
-        }
+    @Override
+    public void run() {
     }
 }
