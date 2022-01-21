@@ -3,8 +3,8 @@ package blog.softwaretester.bloaters.longmethod;
 import java.util.ArrayList;
 import java.util.List;
 
-public class WebShop {
-    private List<Customer> customers = new ArrayList<>();
+class WebShop {
+    private final List<Customer> customers = new ArrayList<>();
 
     public String saveCustomer(final Customer customer) {
         customers.add(customer);
@@ -13,10 +13,10 @@ public class WebShop {
                     <tr>Name</tr>
                     <td>%s</td>
                 </table>
-                """, customer.name);
-    }
-
-    private static class Customer {
-        private String name;
+                """, customer.name());
     }
 }
+
+record Customer(String name) {
+}
+

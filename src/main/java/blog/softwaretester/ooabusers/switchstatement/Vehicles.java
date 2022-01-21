@@ -1,6 +1,6 @@
-package blog.softwaretester.ooabusers.conditionalcomplexity;
+package blog.softwaretester.ooabusers.switchstatement;
 
-public class Vehicles {
+class Vehicles {
     public int numberOfWheels(String vehicle, int numberOfVehicles) throws Exception {
 
         return switch (vehicle) {

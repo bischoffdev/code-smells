@@ -2,23 +2,25 @@ package blog.softwaretester.bloaters.largeclass;
 
 import java.util.List;
 
-public class WebShop {
-    private List<Product> cart;
-
-    public void addProductToCart(final Product product) {}
-    public void removeProductFromCart(final Product product) {}
-    public void checkOut() {}
-    public void changeAddress(final Customer customer, final Address newAddress) {}
-    public void enterVoucherCode() {}
-    public void contactSupport() {}
-    public void getDiscountedItems() {}
-
-    private static class Product {
+class WebShop {
+    public void addProductToCart(final Product product) {
     }
 
-    private static class Customer {
+    public void removeProductFromCart(final Product product) {
     }
 
-    private static class Address {
+    public void checkOut() {
     }
+
+    public void enterVoucherCode() {
+    }
+
+    public void contactSupport() {
+    }
+
+    public void getDiscountedItems() {
+    }
+}
+
+record Product() {
 }

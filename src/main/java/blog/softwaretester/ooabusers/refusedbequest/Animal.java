@@ -1,13 +1,11 @@
 package blog.softwaretester.ooabusers.refusedbequest;
 
-abstract class Animal {
-    public abstract void speak();
-
-    public abstract void run();
+interface Animal {
+    void speak();
+    void run();
 }
 
-class Dog extends Animal {
-
+class Dog implements Animal {
     @Override
     public void speak() {
         System.out.println("Woof");
@@ -19,8 +17,7 @@ class Dog extends Animal {
     }
 }
 
-class Fish extends Animal {
-
+class Fish implements Animal {
     @Override
     public void speak() {
     }

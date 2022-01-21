@@ -1,23 +1,15 @@
 package blog.softwaretester.changepreventers.divergentchange;
 
-public class AnimalInformation {
+class AnimalInformation {
     public static String getLatinName(final String animalName) {
-        if (animalName.equalsIgnoreCase("horse")) {
-            return "Equus caballus";
-        } else if (animalName.equalsIgnoreCase("fly")) {
-            return "Musca domestica";
-        } else {
-            return "";
-        }
+        if (animalName.equalsIgnoreCase("horse")) return "Equus caballus";
+        if (animalName.equalsIgnoreCase("fly")) return "Musca domestica";
+        return "";
     }
 
     public static int getNumberOfLegs(final String animalName) {
-        if (animalName.equalsIgnoreCase("horse")) {
-            return 4;
-        } else if (animalName.equalsIgnoreCase("fly")) {
-            return 6;
-        } else {
-            return -1;
-        }
+        if (animalName.equalsIgnoreCase("horse")) return 4;
+        if (animalName.equalsIgnoreCase("fly")) return 6;
+        return -1;
     }
 }
