@@ -3,7 +3,7 @@ package blog.softwaretester.bloaters.longmethod;
 import java.util.ArrayList;
 import java.util.List;
 
-class WebShop {
+public class WebShop {
     private final List<Customer> customers = new ArrayList<>();
 
     public String saveCustomer(final Customer customer) {
@@ -15,8 +15,8 @@ class WebShop {
                 </table>
                 """, customer.name());
     }
-}
 
-record Customer(String name) {
+    record Customer(String name) {
+    }
 }
 

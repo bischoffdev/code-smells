@@ -1,6 +1,6 @@
 package blog.softwaretester.changepreventers.divergentchange;
 
-class AnimalInformation {
+public class AnimalInformation {
     public static String getLatinName(final String animalName) {
         if (animalName.equalsIgnoreCase("horse")) return "Equus caballus";
         if (animalName.equalsIgnoreCase("fly")) return "Musca domestica";

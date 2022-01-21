@@ -1,8 +1,6 @@
 package blog.softwaretester.bloaters.largeclass;
 
-import java.util.List;
-
-class WebShop {
+public class WebShop {
     public void addProductToCart(final Product product) {
     }
 
@@ -20,7 +18,7 @@ class WebShop {
 
     public void getDiscountedItems() {
     }
-}
 
-record Product() {
+    record Product() {
+    }
 }
