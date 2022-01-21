@@ -1,6 +1,6 @@
 package blog.softwaretester.dispensables.lazyclass;
 
-public class WebshopCheckOut {
+public class WebShopCheckOut {
     public static void checkOut(final ShoppingCart cart) {
         // Some implementation
     }

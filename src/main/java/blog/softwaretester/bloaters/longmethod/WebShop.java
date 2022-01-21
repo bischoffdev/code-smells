@@ -9,14 +9,10 @@ public class WebShop {
     public String saveCustomer(final Customer customer) {
         customers.add(customer);
         return String.format("""
-                <table>
-                    <tr>Name</tr>
-                    <td>%s</td>
-                </table>
+                <table><tr><td>Name: %s</td></tr></table>
                 """, customer.name());
     }
 
     record Customer(String name) {
     }
 }
-

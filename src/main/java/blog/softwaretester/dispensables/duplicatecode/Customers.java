@@ -1,4 +1,4 @@
-package blog.softwaretester.dispensables.DuplicateCode;
+package blog.softwaretester.dispensables.duplicatecode;
 
 import java.util.List;
 

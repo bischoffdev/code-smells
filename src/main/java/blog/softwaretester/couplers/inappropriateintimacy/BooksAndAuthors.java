@@ -2,7 +2,7 @@ package blog.softwaretester.couplers.inappropriateintimacy;
 
 public class BooksAndAuthors{
     class Book {
-        private String title;
+        private final String title;
         private Author author;
 
         public Book(String title) {
@@ -15,7 +15,7 @@ public class BooksAndAuthors{
     }
 
     class Author {
-        private String name;
+        private final String name;
         private Book book;
 
         public Author(String name) {

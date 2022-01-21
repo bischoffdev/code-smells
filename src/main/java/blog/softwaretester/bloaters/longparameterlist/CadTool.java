@@ -6,7 +6,10 @@ public class CadTool {
         int result = CadTool.calculateResult(13, false, true, -1, null);
     }
 
-    public static int calculateResult(int baseValue, boolean isMetric, boolean is2D, int offset, Integer height) {
+    public static int calculateResult(
+            final int baseValue, final boolean isMetric,
+            final boolean is2D, final int offset,
+            final Integer height) {
         return 0; // some calculation result
     }
 }
