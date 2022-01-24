@@ -1,6 +1,7 @@
 package blog.softwaretester.couplers.middleman;
 
 public record Customer(String name, Address address) {
+
     public String getCity() {
         return address.city();
     }

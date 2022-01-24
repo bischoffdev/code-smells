@@ -1,6 +1,7 @@
 package blog.softwaretester.dispensables.dataclass;
 
 public class DataClass {
+
     record Rectangle(int sideA, int sideB) {
     }
 

@@ -1,6 +1,7 @@
 package blog.softwaretester.couplers.inappropriateintimacy;
 
-public class BooksAndAuthors{
+public class BooksAndAuthors {
+
     class Book {
         private final String title;
         private Author author;

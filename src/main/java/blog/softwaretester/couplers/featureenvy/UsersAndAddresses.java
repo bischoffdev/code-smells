@@ -1,9 +1,12 @@
 package blog.softwaretester.couplers.featureenvy;
 
 public class UsersAndAddresses {
+
     record User(Address address) {
         public String getAddressString() {
-            return address.street() + ", " + address.city() + ", " + address.country();
+            return address.street()
+                    + ", " + address.city()
+                    + ", " + address.country();
         }
     }
 

@@ -1,9 +1,11 @@
 package blog.softwaretester.changepreventers.shotgunsurgery;
 
-public class AnimalInformation{
+public class AnimalInformation {
+
     static class Classification {
         public static String getLatinName(final String animalName) {
-            if (animalName.equalsIgnoreCase("horse")) return "Equus caballus";
+            if (animalName.equalsIgnoreCase("horse"))
+                return "Equus caballus";
             return "";
         }
     }

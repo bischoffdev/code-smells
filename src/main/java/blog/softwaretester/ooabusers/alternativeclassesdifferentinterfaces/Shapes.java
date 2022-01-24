@@ -1,11 +1,6 @@
 package blog.softwaretester.ooabusers.alternativeclassesdifferentinterfaces;
 
-public class AlternativeClassesDifferentInterfaces {
-
-    public static void main(String[] args) {
-        System.out.println(new Circle(5).getAreaSize());
-        System.out.println(new Rectangle(3, 5).getSurfaceSize());
-    }
+public class Shapes {
 
     record Circle(float radius) {
         public double getAreaSize() {
