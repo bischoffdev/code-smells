@@ -1,10 +1,10 @@
 package blog.softwaretester.codesmells.bloaters.largeclass;
 
-public class WebShop {
-    public void addProductToCart(final Product product) {
+public class ShoppingCart {
+    public void addProduct(final Product product) {
     }
 
-    public void removeProductFromCart(final Product product) {
+    public void removeProduct(final Product product) {
     }
 
     public void checkOut() {
@@ -14,9 +14,6 @@ public class WebShop {
     }
 
     public void contactSupport() {
-    }
-
-    public void getDiscountedItems() {
     }
 
     record Product() {
