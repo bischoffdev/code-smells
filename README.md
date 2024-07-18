@@ -4,4 +4,4 @@
 
 Example code for my conference talk "Identifying code smells".
 
-Slides and further description can be found here: [https://www.softwaretester.blog/events/idendentifying-code-smells](https://www.softwaretester.blog/events/idendentifying-code-smells)
+Slides and further description can be found here: [https://www.softwaretester.blog/events/identifying-code-smells](https://www.softwaretester.blog/events/identifying-code-smells)
