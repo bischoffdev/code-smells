@@ -1,4 +1,4 @@
-package blog.softwaretester.codesmells.dispensables.speculativefenerality;
+package blog.softwaretester.codesmells.dispensables.speculativegenerality;
 
 public class LaserPrinter implements Printer {
     @Override
